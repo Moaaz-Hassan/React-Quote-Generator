@@ -1,0 +1,42 @@
+@import "tailwindcss" ;
+
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.big-font{
+  font-family:"Bebas Neue", sans-serif ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: whitesmoke;
+}
+.author {
+  font-family: "Caveat", cursive;
+  font-style: normal;
+}
+
+.quote {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: whitesmoke
+}
+
+@media (max-width : 800px) {
+  .quote{
+    font-size: 18px;
+  }
+}
+
+@media (max-width : 600px) {
+  .big-font{
+    font-size: 35px;
+  }
+  .quote{
+    font-size: 16px;
+  }
+}
+
+
