@@ -13,7 +13,7 @@ export function isItFavourite(quote){
     
 
     return Favourites.some(
-        q => q.quote === quote?.quote && q.author === quote?.author
+        q => q?.quote === quote?.quote && q?.author === quote?.author
     );
 
 }
